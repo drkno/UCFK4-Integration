@@ -16,7 +16,7 @@ To get working:
 
 Notes:
 ---------
-1.	The current debug target does not work because there is no <terminos.h> on windows.
+1.	The current debug target does not work because there is no termino.h on windows. To fix this would require either providing a replacement, using cygwin or patching their "API" none of which I can be bothered doing.
 2.	The provided UCFK make files require the following mods to work (as of 2014):
 	a. The DEL = rm line needs to be changed to DEL = del
 	b. The line dfu-programmer .... ; dfu-programmer .... ; dfu-programmer .... needs new lines or '&' instead of ';'.
