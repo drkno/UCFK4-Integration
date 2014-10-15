@@ -3,9 +3,10 @@ UCFK4-Integration
 
 This is a Visual Studio 2013 project that attempts to make the UCFK4 (University of Canterbury Fun Kit v4) integrate with Visual Studio. At present it is minimal and only just works.
 
+Here be dragons!
+
 To get working:
 -------------------
-Here be dragons!
 1.	Install WinAVR
 2.	Install dfu-programmer to the bin directory of WinAVR
 3.	Add the bin directory of WinAVR to the system/user path
@@ -18,7 +19,7 @@ Notes:
 1.	The current debug target does not work because there is no <terminos.h> on windows.
 2.	The provided UCFK make files require the following mods to work (as of 2014):
 	a. The DEL = rm line needs to be changed to DEL = del
-	b. The line dfu-programmer .... ; dfu-programmer .... ; dfu-programmer .... needs new lines or '&' instead of ';'
+	b. The line dfu-programmer .... ; dfu-programmer .... ; dfu-programmer .... needs new lines or '&' instead of ';'.
 3.	This visual studio integration supports git so committing projects should be easy.
 4.	The file gccconvert.cpp and executable gccconvert.exe are to convert errors to the Visual Studio format from the gcc format. The .cpp can be deleted if not needed but if you want errors to work keep the .exe .
 	
