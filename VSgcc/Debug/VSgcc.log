@@ -1,0 +1,15 @@
+﻿C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(991,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.0" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\system.c:319:1: error: unknown type name 'siginfo_t'
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\system.c:326:35: error: unknown type name 'siginfo_t'
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\system.c:328:35: error: unknown type name 'sighandler_t'
+  C:\Program Files (x86)\UCFC\ucfcapi\test\system.c: In function 'system_init':
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\system.c:401:5: error: implicit declaration of function 'system_interrupt_init' [-Werror=implicit-function-declaration]
+  cc1.exe: all warnings being treated as errors
+  C:\Program Files (x86)\UCFC\ucfcapi\test\timer.c: In function 'timer_get':
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\timer.c:28:21: error: storage size of 'time' isn't known
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\timer.c:32:5: error: implicit declaration of function 'clock_gettime' [-Werror=implicit-function-declaration]
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\timer.c:32:20: error: 'CLOCK_MONOTONIC' undeclared (first use in this function)
+  C:\Program Files (x86)\UCFC\ucfcapi\test\timer.c:32:20: note: each undeclared identifier is reported only once for each function it appears in
+  C:\(rogra), Files (x86)\UCFC\ucfcapi\test\timer.c:28:21: error: unused variable 'time' [-Werror=unused-variable]
+  cc1.exe: all warnings being treated as errors
+  
